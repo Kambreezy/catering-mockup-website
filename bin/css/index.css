@@ -1,0 +1,289 @@
+body{
+	padding: 0;
+	margin:0;
+}
+*{
+		font-family: Akrobat;
+}
+.navbar-toggle{
+	background-color: rgb(255,0,0);
+}
+.navbar-toggle icon-bar{
+	background-color: rgb(255,255,255);
+}
+
+.divider{
+	width:relative;
+	background-color:rgb(255,0,0);
+	height: 2px;
+	border-radius: 20px;
+}
+.divider-two{
+	width:relative;
+	background-color:rgb(0,0,0);
+	height: 2px;
+	border-radius: 20px;
+}
+blockquote{
+	text-align: left;
+	font-weight: 700;
+	margin-top:20px;
+	line-height: 2.2em;
+}
+
+
+
+.nav1{
+	background-color: rgb(255,255,255); 
+	width: relative;
+	position: fixed-top;
+	min-height: 100px;	
+	box-shadow: 0px 8px 10px 0px rgba(0,0,0,.1);
+	 }
+.nav2{
+	 	background-color: rgb(255,255,255);
+	 	width: relative;
+	position: fixed-top;
+	min-height: 100px;
+	box-shadow: 0px 0px 10px 0px rgba(0,0,0,.5);
+	 }
+.active{
+box-shadow: 0px 1px 0px 0px rgb(245,157,58);
+}
+.active:hover{
+	box-shadow: 0px 2px 0px 0px rgb(245,157,58);
+	transition: .3s ease-in-out;
+}
+.nav-navbar ul li{
+	display: inline-block;
+	width:relative;
+	position: center;
+	margin-top: 40px;
+	cursor: pointer;
+}
+.navbar-nav{
+	position: absolute;
+	width: relative;
+	left:0;
+	right:0;
+}
+.nav-navbar li a{
+	font-family: Trebuchet MS;
+	letter-spacing: .15em;
+	color: rgb(0,0,0);
+	margin-right:20px;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 14px;
+	transition: .2s ease-in-out;
+
+}
+
+.nav-navbar li a:hover{
+	transform: scale(1.08);
+	transition: .5s ease-in-out;
+	background-color: gold;
+}
+.navbar-brand{
+	/*background-image: url('../images/rgc-logo.png');*/
+	background-size: cover;
+	width: 80px;
+	min-height: 70px;
+	height: auto;
+	transform: scale(1.2);
+	margin-top: 5px;
+	color: gold;
+}
+
+.introduction{
+	width: relative;
+	min-height:600px;
+	height: auto;
+	padding:0;
+	margin:0;
+	background-image: url('../images/table-four.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	
+}
+.introduction-overlay{
+	background-color: rgb(0,0,0,.4);
+	width:relative;
+	min-height:600px;
+	height: auto;
+	text-align: center;
+	color: rgb(255,255,255);
+	padding: 250px 0px 0px 0px;
+}
+.introduction h3{
+	font-family: Script MT;
+	color: gold;
+	font-size: 30px;
+}
+.introduction h1{
+	font-size: 80px;
+	line-height: 1em;
+}
+.our-services{
+	width: relative;
+	height: 500px;
+}
+.mobile-view{
+	display: none;
+}
+
+/* --MOBILE PHONES--*/
+@media only screen
+and (max-device-width : 768px),(min-device-width : 320px)
+and (max-device-width : 480px) {
+.services{
+	display: none;
+}
+.mobile-view{
+	display: block;
+	width: relative;
+	height: 400px;
+	text-align: center;
+	color: rgb(0,0,0);
+	padding-top: 10px;
+}
+.mobile-view h3{
+	color: gold;
+	font-family: Script MT;
+}
+} 
+.services{
+	top:-60px;
+	height: 650px;
+	padding: 0;
+	width: relative;
+	position: absolute;
+	
+}
+.corporate-service{
+	width:relative;
+	height: 650px;
+	text-align: center;
+	padding: 0px 5px 0px 5px ;
+	margin: 0;
+}
+.content-img{
+	background-image: url('../images/table-glass.jpg');
+	background-size: cover;
+	background-position: center;
+	width: relative;
+	height: 400px;
+	}
+
+	.wedding-service{
+	width:relative;
+	height: 650px;
+	text-align: center;
+	padding: 0px 5px 0px 5px ;
+	margin: 0;
+}
+.wedding-img{
+	background-image: url('../images/bonquet.jpg');
+	background-size: cover;
+	background-position: center;
+	width: relative;
+	height: 400px;
+	}
+
+	.event-service{
+	width:relative;
+	height: 650px;
+	text-align: center;
+	padding: 0px 5px 0px 5px ;
+	margin: 0;
+}
+.event-img{
+	background-image: url('../images/buffet.jpg');
+	background-size: cover;
+	background-position: center;
+	width: relative;
+	height: 400px;
+	}
+
+
+.content{
+	width: relative;
+	background-color: rgb(203,151,69);
+	height: 250px;
+	color: rgb(255,255,255);
+	z-index:2;
+	}
+.content h3{
+	font-family: Script MT;
+	color: gold;
+}
+.content h4{
+	line-height: 1.3em;
+	padding:0px 10px 0px 10px;
+}
+
+.copyright{
+	bottom: 0;
+	width: relative;
+	height:auto;
+	text-align: center;
+	color:rgb(255,255,255);
+	background-color: rgb(255,0,0);
+	padding:5px 0px 5px 0px;
+}
+.dropdown-menu{
+	background-color: rgba(255,255,255,.7);
+	width: relative;
+	padding-left: 20px;
+	position: absolute;
+}
+.row{
+	width: relative;
+	height:400px;
+	background-image: 500px;
+	background-image: url('../images/table-six.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	padding:0;
+	margin: 0;
+}
+.row-overlay{
+	width: relative;
+	height:400px;
+	background-color: rgba(0,0,0,.2);
+	text-align: center;
+	padding:0;
+	margin: 0;
+}
+.row h1{
+	font-family: Script MT;
+	top:50%;
+	position: absolute;
+	font-size: 50px;
+	color: rgb(255,255,255);
+}
+
+.about-us{
+	width: relative;
+	height:auto;
+	padding: 0;
+	margin:0;
+}
+.chef{
+	width:relative;
+	height: 400px;
+	background-image: url('../images/chef.png');
+	background-size: cover;
+	z-index:1;
+	margin-top: -100px;
+}
+.about{
+	text-align: center;
+	margin-top: 40px;
+}
+.about h1{
+	font-family: Script MT;
+}
+.about h4{
+	line-height: 2.1em;
+}
